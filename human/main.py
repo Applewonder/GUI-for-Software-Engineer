@@ -34,6 +34,7 @@ class MainDialog(QMainWindow):
             child_window = Success()
             os.system("./auto_judging")
             self.load_file()
+
         else:
             child_window = Failure()
 
